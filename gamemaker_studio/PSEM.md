@@ -94,7 +94,7 @@ struct Emitter_2023_8 {
     float EmitCount;     // Changed to float in 2023.8
 
     // New in 2023.8
-    int EmitRelative;    // I didn't know what this was, but taking Jacky720's word for it
+    bool EmitRelative;    // I didn't know what this was, but taking Jacky720's word for it
     float DelayMin, DelayMax;
     int DelayUnits;      // (0 = seconds, 1 = frames)
     float IntervalMin, IntervalMax;
