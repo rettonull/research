@@ -91,12 +91,14 @@ struct Emitter_2023_8 {
     string_offset Name;
     bool Enabled;
     int Mode;
-    float EmitCount;    // Changed to float in 2023.8
+    float EmitCount;     // Changed to float in 2023.8
 
     // New in 2023.8
     int EmitRelative;    // I didn't know what this was, but taking Jacky720's word for it
-    int DelayMin, DelayMax, DelayUnits (0 = seconds, 1 = frames),
-        IntervalMin, IntervalMax, IntervalUnits (0 = seconds, 1 = frames);
+    float DelayMin, DelayMax;
+    int DelayUnits;      // (0 = seconds, 1 = frames)
+    float IntervalMin, IntervalMax;
+    int IntervalUnits;   // (0 = seconds, 1 = frames);
     
     int Distribution, Shape;
     float RegionX, RegionY, RegionWidth, RegionHeight, Rotation;
