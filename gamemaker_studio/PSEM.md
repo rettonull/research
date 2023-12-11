@@ -1,6 +1,6 @@
 # Particle System Emitter (PSEM) list item types
 
-All type members are 4 bytes in size
+All member types are 4 bytes in size
 
 GMS 2023.2.1.75 (adapted from original UndertaleParticleSystem.cs)
 ```
